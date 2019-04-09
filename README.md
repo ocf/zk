@@ -1,4 +1,4 @@
-zookeeper-k8s
+zk
 ======
 
 Configuration files for [Apache ZooKeeper](https://zookeeper.apache.org/) to run it on our Kubernetes cluster. We have a
