@@ -10,13 +10,13 @@ quick prototyping and development of other services or systems within the cluste
 Within the Kubernetes cluster, you can connect to the ZooKeeper cluster at one of the following nodes:
 
 ```
-zk-0.zk-hs.app-zk.svc.cluster.local:2888
-zk-1.zk-hs.app-zk.svc.cluster.local:2888
-zk-2.zk-hs.app-zk.svc.cluster.local:2888
+zk-0.zk-hs.app-zk.svc.cluster.local:2181
+zk-1.zk-hs.app-zk.svc.cluster.local:2181
+zk-2.zk-hs.app-zk.svc.cluster.local:2181
 ```
 
 But you'll see in most applications you want to give a ZK-string like so
 
-```
-zk-0.zk-hs.app-zk.svc.cluster.local:2888,zk-1.zk-hs.app-zk.svc.cluster.local:2888,zk-2.zk-hs.app-zk.svc.cluster.local:2888
-```
+`
+zk-0.zk-hs.app-zk.svc.cluster.local:2181,zk-1.zk-hs.app-zk.svc.cluster.local:2181,zk-2.zk-hs.app-zk.svc.cluster.local:2181
+`
