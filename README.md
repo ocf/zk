@@ -15,8 +15,8 @@ zk-1.zk-hs.app-zk.svc.cluster.local:2181
 zk-2.zk-hs.app-zk.svc.cluster.local:2181
 ```
 
-But you'll see in most applications you want to give a ZK-string like so
+But you'll see in most applications you want to give a ZK-string like so, potentially with a path
 
 `
-zk-0.zk-hs.app-zk.svc.cluster.local:2181,zk-1.zk-hs.app-zk.svc.cluster.local:2181,zk-2.zk-hs.app-zk.svc.cluster.local:2181
+zk-0.zk-hs.app-zk.svc.cluster.local:2181,zk-1.zk-hs.app-zk.svc.cluster.local:2181,zk-2.zk-hs.app-zk.svc.cluster.local:2181/path
 `
