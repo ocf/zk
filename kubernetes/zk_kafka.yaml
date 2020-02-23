@@ -1,0 +1,15 @@
+apiVersion: zookeeper.pravega.io/v1beta1
+kind: ZookeeperCluster
+metadata:
+  name: zk-kafka-zookeepercluster
+  namespace: app-zk
+spec:
+  replicas: 3
+  persistence:
+    reclaimPolicy: Delete
+    spec:
+      storageClassName: managed-nfs-storage
+      accessModes: [ ReadWriteOnce ]
+      resources:
+        requests:
+          storage: 1Gi
