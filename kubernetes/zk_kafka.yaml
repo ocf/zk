@@ -8,7 +8,7 @@ spec:
   persistence:
     reclaimPolicy: Retain
     spec:
-      storageClassName: managed-nfs-storage
+      storageClassName: managed-nfs-storage-retain
       accessModes: [ ReadWriteOnce ]
       resources:
         requests:
