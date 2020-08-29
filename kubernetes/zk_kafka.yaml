@@ -6,7 +6,7 @@ metadata:
 spec:
   replicas: 3
   persistence:
-    reclaimPolicy: Delete
+    reclaimPolicy: Retain
     spec:
       storageClassName: managed-nfs-storage
       accessModes: [ ReadWriteOnce ]
